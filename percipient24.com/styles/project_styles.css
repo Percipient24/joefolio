@@ -1,0 +1,170 @@
+body
+{
+}
+
+h1
+{
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	margin-top: 3px;
+	line-height: 0.9em;
+}
+
+nav
+{
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.left
+{
+	padding-left: 15px;
+	float: left;
+}
+
+.right
+{
+	padding-right: 15px;
+	float: right;
+}
+
+#launch
+{
+	border: 1px dotted black;
+	border-width: 1px 0;
+	text-align: center;
+	padding: 15px 0;
+}
+
+#banner
+{
+	text-align: center;
+	height: 300px;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+.bannerImage
+{
+	vertical-align: middle;
+}
+
+section, footer
+{
+	margin: 0 auto;
+	padding: 60px;
+	max-width: 840px;
+}
+
+footer
+{
+	margin-top: 0;
+	height: 100px;
+}
+
+p
+{
+	margin: 20px 0;
+	line-height: 20px;
+}
+
+.highlight
+{
+	clear: both;
+	border: 1px dotted black;
+	border-width: 0 0 1px 0;
+	min-width: 400px;
+}
+
+img.icon
+{
+	float: left;
+	margin-right: 15px;
+}
+
+img + p
+{
+	padding-top: 30px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+div.highlight:nth-child(odd)
+{
+	text-align: right;
+}
+
+div.highlight:nth-child(odd) img
+{
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+}
+
+div.highlight:nth-child(even) img
+{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+div.highlight:nth-child(odd) iframe
+{
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+}
+
+div.highlight:nth-child(even) iframe
+{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+p.description
+{
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+a.launch
+{
+	margin: -5px -10px -6px -5px;
+	padding: 5px 10px;
+}
+
+a.launch:link {}
+a.launch:visited {}
+
+a.launch:hover 
+{
+	color: #eeeeee;
+	background-color: #333333;
+	border: 1px dotted white;
+	border-width: 0 0 1px 0;
+	margin: -5px -10px -6px -10px;
+}
+a.launch:active {}

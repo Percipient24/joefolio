@@ -1,0 +1,377 @@
+ul
+{
+	list-style-type: none;
+}
+
+div
+{
+	overflow: hidden;
+}
+
+#me
+{
+	width: 300px;
+	height: 600px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: url('/media/portraits.png') 0 0;
+}
+
+#banner
+{
+	padding-left: 40px;
+	padding-top: 10px;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+#banner a
+{
+	border-width: 0;
+}
+
+#show
+{
+	padding-left: 80px;
+}
+
+.resume
+{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+.resume>li
+{
+	position: relative;
+	display: block;
+	border: 1px solid black;
+	margin-left: 15px;
+	padding: 15px 0 15px 0;
+	margin-bottom: 45px;
+	border-style: dotted none dotted dotted;
+}
+
+.projects
+{
+	margin-left: 50px;
+}
+
+.projects>li
+{
+	clear: both;
+	display: block;
+	border: 1px solid black;
+	margin: 10px 0 0 -50px;
+	border-style: dotted none none none;
+	z-index: 15;
+}
+
+.dot
+{
+	border: 6px solid black;
+	border-radius: 6px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	overflow: visible;
+	top: -6px;
+	left: 14px;
+}
+
+.projects .dot
+{
+	left: -5px;
+}
+
+.futuredot
+{
+	border: 6px solid black;
+	border-radius: 6px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	overflow: visible;
+	top: -6px;
+	left: 14px;
+}
+
+.range
+{
+	border: 1px dotted black;
+	border-width: 1px 0 1px 1px;
+	width: 20px;
+	height: 100px;
+	z-index: -2;
+	margin-left: -20px;
+}
+
+.future
+{
+	pointer-events: none;
+	height: 500px;
+	width: 15px;
+	margin-left: -15px;
+	margin-top: -495px;
+}
+
+.date
+{
+	margin-top: -22px;
+	margin-left: 25px;
+	padding-left: 10px;
+}
+
+.datetext
+{
+	background-color: white;
+	padding: 0 5px;
+}
+
+.pdate
+{
+	margin-top: -8px;
+	margin-left: 35px;
+}
+
+.title
+{
+	font-family: 'Monda', sans-serif;
+	margin: 15px 0 15px 50px;
+	clear: both;
+	z-index: 15;
+}
+
+.position
+{
+	margin: -10px 0 10px 51px;
+	z-index: 15;
+}
+
+.description
+{
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin: 0 0 30px 50px;
+	padding: 0 0 10px 0;
+	width: 35%;
+	min-width: 350px;
+	line-height: 20px;
+	z-index: 15;
+}
+
+.description img
+{
+	float: left;
+	margin-right: 8px;
+}
+
+.horizontal
+{
+	list-style-type: none;
+}
+
+.horizontal li
+{
+	display: inline;
+}
+
+.letter
+{
+	display: inline-block;
+	height: 104px;
+	line-height: 0;
+	font-size: 0;
+	color: transparent;
+	overflow: hidden;
+}
+
+#p
+{
+	width: 117px;
+	background: url('/media/percipient24.png') 0 -104px;
+	z-index: 3;
+}
+
+#p:hover
+{
+	width: 117px;
+	background: url('/media/percipient24.png') 0 0;
+}
+
+#e
+{
+	margin-left: -25px;
+	width: 108px;
+	background: url('/media/percipient24.png') -117px -104px;
+}
+
+#e:hover
+{
+	background: url('/media/percipient24.png') -117px 0;
+}
+
+#r
+{
+	margin-left: -30px;
+	width: 119px;
+	background: url('/media/percipient24.png') -225px -104px;
+}
+
+#r:hover
+{
+	background: url('/media/percipient24.png') -225px 0;
+}
+
+#c
+{
+	margin-left: -18px;
+	width: 98px;
+	background: url('/media/percipient24.png') -344px -104px;
+}
+
+#c:hover
+{
+	background: url('/media/percipient24.png') -344px 0;
+}
+
+#i
+{
+	margin-left: -33px;
+	width: 67px;
+	background: url('/media/percipient24.png') -442px -104px;
+}
+
+#i:hover
+{
+	background: url('/media/percipient24.png') -442px 0;
+}
+
+#p2
+{
+	margin-left: -30px;
+	width: 116px;
+	background: url('/media/percipient24.png') -509px -104px;
+}
+
+#p2:hover
+{
+	background: url('/media/percipient24.png') -509px 0;
+}
+
+#i2
+{
+	margin-left: -25px;
+	width: 67px;
+	background: url('/media/percipient24.png') -625px -104px;
+}
+
+#i2:hover
+{
+	background: url('/media/percipient24.png') -625px 0;
+}
+
+#e2
+{
+	margin-left: -33px;
+	width: 108px;
+	background: url('/media/percipient24.png') -690px -104px;
+}
+
+#e2:hover
+{
+	background: url('/media/percipient24.png') -690px 0;
+}
+
+#n
+{
+	margin-left: -30px;
+	width: 120px;
+	background: url('/media/percipient24.png') -798px -104px;
+}
+
+#n:hover
+{
+	background: url('/media/percipient24.png') -798px 0;
+}
+
+#t
+{
+	margin-left: -5px;
+	width: 92px;
+	background: url('/media/percipient24.png') -918px -104px;
+}
+
+#t:hover
+{
+	background: url('/media/percipient24.png') -918px 0;
+}
+
+#two
+{
+	margin-left: -38px;
+	width: 107px;
+	background: url('/media/percipient24.png') -1010px -104px;
+}
+
+#two:hover
+{
+	background: url('/media/percipient24.png') -1010px 0;
+}
+
+#four
+{
+	margin-left: -30px;
+	width: 99px;
+	background: url('/media/percipient24.png') -1117px -104px;
+}
+
+#four:hover
+{
+	background: url('/media/percipient24.png') -1117px 0;
+}
+
+h2.title a
+{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 0.75em;
+	display: inline-block;
+	color: #999999;
+	background-color: inherit;
+	text-decoration: none;
+	border-width: 0;
+}
+
+h2.title a:link {}
+h2.title a:visited {}
+
+h2.title a:hover 
+{
+	color: #eeeeee;
+	background-color: #333333;
+	border: 1px dotted white;
+	border-width: 0 0 1px 0;
+	margin-bottom: -2px;
+}
+h2.title a:active {}
+
+.thumbContainer
+{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-right: 8px;
+	margin-left: 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumbContainer img
+{
+	position: relative;
+}

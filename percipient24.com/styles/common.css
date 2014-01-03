@@ -1,0 +1,58 @@
+html, body, div, p, h1, h2, h3, h4, li, ul, hr
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	font-family: 'Monda', sans-serif;
+	line-height: 30px;
+	font-size: 2em;
+}
+
+h2
+{
+	line-height: 30px;
+}
+
+h4
+{
+	line-height: 15px;
+}
+
+body
+{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #444444;
+	height: 100%;
+}
+
+a
+{
+	display: inline-block;
+	color: #333333;
+	text-decoration: none;
+	border: 1px dotted black;
+	border-width: 0 0 1px 0;
+	margin-bottom: -1px;
+}
+
+a:link {}
+a:visited {}
+
+a:hover 
+{
+	color: #eeeeee;
+	background-color: #333333;
+	border: 1px dotted white;
+	border-width: 0 0 1px 0;
+	margin-bottom: -1px;
+}
+a:active {}
+
+nav a
+{
+	background-color: black;
+	color: white;
+}
