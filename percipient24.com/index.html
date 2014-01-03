@@ -254,6 +254,7 @@
 			
 			$(document).bind('touchmove mousemove', movementDetected);
 			$(window).bind('scroll', movementDetected);
+			movementDetected();
 		});
 		
 		function movementDetected(evt)
@@ -265,7 +266,7 @@
 				portraitReset = Math.random()*30+60;
 				portraitCounter = 0;
 				
-				$("#me").css("background", "url('/media/portraits.png') -"+Math.floor(/*Math.random()*8*/7)*300+"px 0");
+				$("#me").css("background", "url('/media/portraits.png') -"+Math.floor(Math.random()*8)*300+"px 0");
 			}
 		}
 
