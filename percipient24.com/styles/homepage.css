@@ -209,13 +209,7 @@ div
 #p
 {
 	width: 117px;
-	background: url('/media/percipient24.png') 0 -104px;
 	margin-left: 45px;
-}
-
-#p:hover
-{
-	width: 117px;
 	background: url('/media/percipient24.png') 0 0;
 }
 
@@ -223,11 +217,6 @@ div
 {
 	margin-left: -25px;
 	width: 108px;
-	background: url('/media/percipient24.png') -117px -104px;
-}
-
-#e:hover
-{
 	background: url('/media/percipient24.png') -117px 0;
 }
 
@@ -235,11 +224,6 @@ div
 {
 	margin-left: -30px;
 	width: 119px;
-	background: url('/media/percipient24.png') -225px -104px;
-}
-
-#r:hover
-{
 	background: url('/media/percipient24.png') -225px 0;
 }
 
@@ -247,11 +231,6 @@ div
 {
 	margin-left: -18px;
 	width: 98px;
-	background: url('/media/percipient24.png') -344px -104px;
-}
-
-#c:hover
-{
 	background: url('/media/percipient24.png') -344px 0;
 }
 
@@ -259,11 +238,6 @@ div
 {
 	margin-left: -33px;
 	width: 67px;
-	background: url('/media/percipient24.png') -442px -104px;
-}
-
-#i:hover
-{
 	background: url('/media/percipient24.png') -442px 0;
 }
 
@@ -271,11 +245,6 @@ div
 {
 	margin-left: -30px;
 	width: 116px;
-	background: url('/media/percipient24.png') -509px -104px;
-}
-
-#p2:hover
-{
 	background: url('/media/percipient24.png') -509px 0;
 }
 
@@ -283,11 +252,6 @@ div
 {
 	margin-left: -25px;
 	width: 67px;
-	background: url('/media/percipient24.png') -625px -104px;
-}
-
-#i2:hover
-{
 	background: url('/media/percipient24.png') -625px 0;
 }
 
@@ -295,11 +259,6 @@ div
 {
 	margin-left: -33px;
 	width: 108px;
-	background: url('/media/percipient24.png') -690px -104px;
-}
-
-#e2:hover
-{
 	background: url('/media/percipient24.png') -690px 0;
 }
 
@@ -307,11 +266,6 @@ div
 {
 	margin-left: -30px;
 	width: 120px;
-	background: url('/media/percipient24.png') -798px -104px;
-}
-
-#n:hover
-{
 	background: url('/media/percipient24.png') -798px 0;
 }
 
@@ -319,11 +273,6 @@ div
 {
 	margin-left: -5px;
 	width: 92px;
-	background: url('/media/percipient24.png') -918px -104px;
-}
-
-#t:hover
-{
 	background: url('/media/percipient24.png') -918px 0;
 }
 
@@ -331,11 +280,6 @@ div
 {
 	margin-left: -38px;
 	width: 107px;
-	background: url('/media/percipient24.png') -1010px -104px;
-}
-
-#two:hover
-{
 	background: url('/media/percipient24.png') -1010px 0;
 }
 
@@ -343,11 +287,6 @@ div
 {
 	margin-left: -30px;
 	width: 99px;
-	background: url('/media/percipient24.png') -1117px -104px;
-}
-
-#four:hover
-{
 	background: url('/media/percipient24.png') -1117px 0;
 }
 

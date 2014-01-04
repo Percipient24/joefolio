@@ -241,15 +241,15 @@
 		$(document).ready(function(){
 			$(".letter").bind('mouseleave blur', function(){
 				$("#show").text("Joe Pietruch is ...");
-				var original = $(this).css("background");
-				original = original.replace("px 0px", "px -104px");
-				$(this).css("background", "");
+				//var original = $(this).css("background");
+				//original = original.replace("px 0px", "px -104px");
+				//$(this).css("background", "");
 			});
 			$(".letter").bind('mouseenter focus', function(){
 				$("#show").text("Joe Pietruch is "+links[this.id]);
-				var original = $(this).css("background");
-				original = original.replace("px -104px", "px 0px");
-				$(this).css("background", original);
+				//var original = $(this).css("background");
+				//original = original.replace("px -104px", "px 0px");
+				//$(this).css("background", original);
 			});
 			
 			$(document).bind('touchmove mousemove', movementDetected);
