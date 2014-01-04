@@ -163,13 +163,15 @@ div
 .title
 {
 	font-family: 'Monda', sans-serif;
-	margin: 15px 0 15px 50px;
+	margin: 15px 0 15px 45px;
+	padding: 5px;
 	clear: both;
 }
 
 .position
 {
-	margin: -10px 0 10px 51px;
+	margin: -15px 0 5px 46px;
+	padding: 5px;
 }
 
 .description
@@ -353,13 +355,14 @@ h2.title a
 {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 0.75em;
-	display: inline-block;
+	line-height: 1.1em;
 	color: #000000;
 	background-color: #FFFF77;
 	text-decoration: none;
 	border-width: 0;
 	padding-left: 7px;
 	padding-right: 7px;
+	padding-top: 3px;
 }
 
 h2.title a:link {}
@@ -390,4 +393,17 @@ h2.title a:active {}
 .thumbContainer img
 {
 	position: relative;
+}
+
+@media (max-width: 1000px)
+{
+	.title {
+		background-color: rgba(255,255,255,0.5);
+		display: inline-block;
+	}
+
+	.position {
+		background-color: rgba(255,255,255,0.5);
+		display: inline-block;
+	}
 }
