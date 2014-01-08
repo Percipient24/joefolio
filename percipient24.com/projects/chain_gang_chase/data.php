@@ -9,8 +9,8 @@ $a_color = "#dfd7c5";
 
 $prev_url = "#";
 $prev_label = "";
-$next_url = "../good_gir_gone_bad/";
-$next_label = "Good Gir Gone Bad";
+$next_url = "../fractal_sudoku/";
+$next_label = "Fractal Sudoku";
 $launch_url = "http://www.chaingangchase.com/";
 
 $banner_src = "cgc_banner.png";

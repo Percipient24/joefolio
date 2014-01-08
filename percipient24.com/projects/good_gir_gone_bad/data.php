@@ -7,8 +7,8 @@ $footer_color = "#290c29";
 
 $a_color = "#cfdfc1";
 
-$prev_url = "../chain_gang_chase/";
-$prev_label = "Chain Gang Chase";
+$prev_url = "../fractal_sudoku/";
+$prev_label = "Fractal Sudoku";
 $next_url = "#";
 $next_label = "";
 $launch_url = "http://nicktoons.nick.com/games/invader-zim-good-gir-gone-bad.html";
