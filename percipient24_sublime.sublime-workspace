@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"padding-",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "percipient24.com/styles/homepage.css",
+			"settings":
+			{
+				"buffer_size": 4367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "percipient24.com/index.html",
+			"settings":
+			{
+				"buffer_size": 25405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "percipient24.com/projects/fractal_sudoku/data.php",
+			"settings":
+			{
+				"buffer_size": 2659,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "percipient24.com/projects/good_gir_gone_bad/data.php",
+			"settings":
+			{
+				"buffer_size": 2604,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "percipient24.com/projects/chain_gang_chase/data.php",
+			"settings":
+			{
+				"buffer_size": 2903,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\n$page_title = \"Joe Pietruch | Projects : \";\n$banner_color = \"#757575\";\n$section_color = \"#eeeeee\";\n$footer_color = \"#757575\";\n\n$a_color = \"#eeeeee\";\n\n$prev_url = \"#\";\n$prev_label = \"\";\n$next_url = \"#\";\n$next_label = \"\";\n$launch_url = \"#\";\n\n$banner_src = \"http://placehold.it/960x300\";\n$icon_src = \"http://placehold.it/75\";\n\n$p_name = \"Project Name\";\n$p_roles = \"Project, Roles, Go, Here\";\n$p_desc = \"Here's a more in-depth description of the project, and details of my involvement in the project. I'll write more specifically about the technologies and tools that I used, along with the techniques, algorithms, and my thought process when creating the project.\";\n\n$highlights = Array();\n\n$h = array(\n	\"img\" => 'http://placehold.it/400x300',\n	\"p1\" => 'asfd',\n	\"ht\" => 'Highlight Name',\n	\"p2\" => 'asdfasfd'\n);\n\narray_push($highlights, $h);\n\n$h = array(\n	\"img\" => 'http://placehold.it/400x300',\n	\"p1\" => 'asfd',\n	\"ht\" => 'Highlight Name',\n	\"p2\" => 'asdfasfd'\n);\n\narray_push($highlights, $h);\n\n$h = array(\n	\"img\" => 'http://placehold.it/400x300',\n	\"p1\" => 'asfd',\n	\"ht\" => 'Highlight Name',\n	\"p2\" => 'asdfasfd'\n);\n\narray_push($highlights, $h);\n?>",
+			"file": "percipient24.com/projects/template/data.php",
+			"file_size": 1177,
+			"file_write_time": 130328225250000000,
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Joe Pietruch/Documents/GitHub/joefolio/percipient24.com/projects/fractal_sudoku/index.php",
+		"/C/Users/Joe Pietruch/Documents/GitHub/joefolio/percipient24.com/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eacute",
+			"percipient24.com",
+			"http://percipient24.com/media/thumbs.png",
+			"resum",
+			"resume",
+			"href=\"#\"",
+			"href=\"\"",
+			"href=\"#",
+			"squarepants",
+			"spongebob",
+			"sponge",
+			"  ",
+			"class=\"letter\" ",
+			"class=\"description\"",
+			"class=\"position\"",
+			"class=\"title\"",
+			"class=\"date\"",
+			"class=\"dot\"",
+			"z-ind"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "percipient24.com/styles/homepage.css",
+					"settings":
+					{
+						"buffer_size": 4367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2355,
+								2355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "percipient24.com/index.html",
+					"settings":
+					{
+						"buffer_size": 25405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6666,
+								6666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1036.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "percipient24.com/projects/fractal_sudoku/data.php",
+					"settings":
+					{
+						"buffer_size": 2659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2622,
+								2622
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 271.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "percipient24.com/projects/good_gir_gone_bad/data.php",
+					"settings":
+					{
+						"buffer_size": 2604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "percipient24.com/projects/chain_gang_chase/data.php",
+					"settings":
+					{
+						"buffer_size": 2903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "percipient24.com/projects/template/data.php",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"data",
+				"projects/template/data.php"
+			],
+			[
+				"inde",
+				"projects/fractal_sudoku/index.php"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"sty",
+				"styles/homepage.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
