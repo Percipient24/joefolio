@@ -1,284 +1,37 @@
 <!DOCTYPE html>
 
-<!-- I feel like a git wizard. -->
+<!-- I feel like a git+apache wizard. -->
 
-<html lang="en">
+<html lang="en" data-ng-app="myApp">
 
 <head>
     <link href='http://fonts.googleapis.com/css?family=Monda:700|Quattrocento+Sans' rel='stylesheet' type='text/css'>
-	<meta charset="utf-8">
-	
-	<title>Joe Pietruch is Percipient24</title>
-	
-	<link href="/styles/common.css" rel="stylesheet" type="text/css">
-	<link href="/styles/homepage.css" rel="stylesheet" type="text/css">
-	
-	<style type="text/css"> 
-		
-	</style>
-	
-	<script type="text/javascript" src="scripts/jquery-1.5.2.min.js"></script>
+  <meta charset="utf-8">
+  
+  <title>Joe Pietruch is Percipient24</title>
+  
+  <link href="/styles/common.css" rel="stylesheet" type="text/css">
+  <link href="/styles/homepage.css" rel="stylesheet" type="text/css">
+  
+  <style type="text/css"> 
+    
+  </style>
+  
+  <script type="text/javascript" src="scripts/jquery-1.5.2.min.js"></script>
 
 </head>
 
 <body>
-<div id="me" class="z_middle"></div>
 
-<div id="banner" class="z_top">
-<p id="show">Joe Pietruch is ...</p>
-<ul class="horizontal">
-<li><a id="p" class="letter" target="_blank" href="mailto:percipient24@gmail.com" title="Email Me">Email Me</a></li>
-<li><a id="e" class="letter" target="_blank" href="http://percipient24.tumblr.com" title="on tumblr">on Tumblr</a></li>
-<li><a id="r" class="letter" target="_blank" href="http://www.twitter.com/percipient24" title="on Twitter">on Twitter</a></li>
-<li><a id="c" class="letter" target="_blank" href="http://www.linkedin.com/in/percipient24" title="on LinkedIn">on LinkedIn</a></li>
-<li><a id="i" class="letter" target="_blank" href="http://www.reddit.com/user/Percipient24" title="on Reddit">on Reddit</a></li>
-<li><a id="p2" class="letter" target="_blank" href="http://www.facebook.com/percipient24" title="on Facebook">on Facebook</a></li>
-<li><a id="i2" class="letter" target="_blank" href="http://www.jp-design.net" title="on Design">My Design</a></li>
-<li><a id="e2" class="letter" target="_blank" href="http://percipient24.com/+" title="on Google+">on Google+</a></li>
-<li><a id="n" class="letter" target="_blank" href="http://vimeo.com/percipient24" title="on Vimeo">on Vimeo</a></li>
-<li><a id="t" class="letter" target="_blank" href="http://live.xbox.com/en-US/Profile?GamerTag=percipient24" title="on Xbox Live">on Xbox Live</a></li>
-<li><a id="two" class="letter" target="_blank" href="http://www.stackoverflow.com/users/590108/percipient24" title="on Stack Overflow">on Stack Overflow</a></li>
-<li><a id="four" class="letter" target="_blank" href="https://github.com/Percipient24" title="on GitHub">on GitHub</a></li>
-</ul>
-</div>
+  <div class="container" data-ng-controller="SimpleController">
+    Name: <input type="text" data-ng-model="name" /> {{ name }}
+    <ul>
+      <li data-ng-repeat="n in customers | filter:name | orderBy:'n'">{{n|uppercase}}</li>
+    </ul>
+  </div>
 
-<h2 class="title" style="margin-top: -35px;"><a href="media/pietruch_resume.pdf" target="_blank" style="margin-left: 35px;">resum&eacute;</a> . <a href="media/pietruch_CV.pdf" target="_blank">CV</a> . <a href="https://www.google.com/calendar/embed?src=percipient24%40gmail.com&ctz=America/New_York" target="_blank">calendar</a> . <a href="/where" target="_blank">whereabouts</a></h2>
-
-<ul class="resume">
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">Looking Forward</span></h4>
-	    <h1 class="title z_text">Seeking Employment in New York, NY</h1>
-        <h4 class="position z_text">Developer / Designer / Creative Coder</h4>
-        <div class="thumbContainer"><img src="media/thumbs.png" alt="My face." width="600" height="300" title="My face." style="top: -150px; left: -525px"/></div><p class="description z_text">I thrive along the interface between designer and developer. I am comfortable and capable working on both sides, often at the same time. I've spent almost 10 years at Rochester Institute of Technology (first as a student, then graduate student, then professor), and I am now reaching for experiences beyond "Brick City."<br/>I'd love to work for you!</p>
-  </li>
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">Professional Career : August 2010 - Present</span></h4>
-	  <h1 class="title z_text">College Professor</h1>
-      <h4 class="position z_text">Rochester Institute of Technology &bull; School of Interactive Games and Media</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="The RIT and Interactive Games &amp; Media logos." width="600" height="300" title="The RIT and Interactive Games &amp; Media logos." style="top: -150px; left: -450px"/></div><p class="description z_text">I have enjoyed almost four years as a college professor. I have taught many sections of twelve different courses, not counting independent studies and seminars, while maintaining outstanding evaluations (just ask <a target="_blank" href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1492972">ratemyprofessor.com</a>!). I was also recently recognized among the top 10% best-reviewed professors in the Golisano College of Computing and Information Sciences.</p>
-  
-      <h1 class="title z_text">Summer Program Director</h1>
-      <h4 class="position z_text">Rochester Institute of Technology &bull; Kids on Campus</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="The Kids on Campus logo." width="600" height="300" title="The Kids on Campus logo." style="top: -150px; left: -375px"/></div><p class="description z_text"> <a target="_blank" href="http://koc.rit.edu/">Kids on Campus</a> exposes local 5th through 12th grade students to computing. I have directed all Kids on Campus operations for the past three summers, after working as an instructor in the program for five summers.</p>
-	  
-	  <ul class="projects">
-	    <li>
-          <h4 class="date pdate"><span class="datetext">June 2013 - Present</span></h4> 
-          <h2 class="title z_text">Chain Gang Chase <a target="_blank" href="/projects/chain_gang_chase/">view details &gt;</a></h2>
-          <h4 class="position z_text">Independent Developer, Project Management</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="The Chain Gang Chase logo." width="600" height="300" title="The Chain Gang Chase logo." style="top: -150px; left: -300px"/></div><p class="description z_text"> <a target="_blank" href="http://www.chaingangchase.com/">Chain Gang Chase</a> is a game project currently under development for the <a target="_blank" href="http://ouya.tv">OUYA</a> platform. I accomplished the front-end web, back-end web, and Java game development during a 20-day solo sprint in June 2013, have since run a successful Kickstarter campaign, and am working towards launch in May 2014.</p>
-        </li>
-		<li>
-		  <h4 class="date pdate"><span class="datetext">Summers since 2010</span></h4>
-		  
-		  <h2 class="title z_text">Just Press Play</h2>
-		  <h4 class="position z_text">Mobile Application and Data Visualization Developer</h4>
-		  <div class="thumbContainer"><img src="media/thumbs.png" alt="The Just Press Play logo." width="600" height="300" title="The Just Press Play logo." style="top: -150px; left: -225px"/></div><p class="description z_text"> <a target="_blank" href="http://play.rit.edu">Just Press Play</a> is a game-layer that augments the academic experience for students in RIT's School of Interactive Games and Media. I created the achievement scanning mobile app and the achievement visualizer portion of the user profile page.</p>
-		</li>
-		<li>
-		  <h4 class="date pdate"><span class="datetext">January 2011</span></h4>
-		  
-		  <h2 class="title z_text">Fractal Sudoku <a target="_blank" href="/projects/fractal_sudoku/">view details &gt;</a></h2>
-		  <h4 class="position z_text">Scaling Graphics and Solution Algorithm</h4>
-		  <div class="thumbContainer"><img src="media/thumbs.png" alt="A Sudoku puzzle." width="600" height="300" title="A Sudoku puzzle." style="top: -150px; left: -150px"/></div><p class="description z_text"> For fun, the geek in me made <a target="_blank" href="http://games4awesome.com/fractalsudoku">Fractal Sudoku</a> as an experiment in creating a sequence of related Sudoku puzzles. Each minor grid expands and acts as a seed for the puzzle at the next level. Each level adds a power of 9 more puzzles to the game.</p>
-		</li>
-     </ul>
-  </li>
-  
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">Graduate Student : September 2008 - August 2010</span></h4>
-	  <h1 class="title z_text">MS in Game Design &amp; Development</h1>
-      <h4 class="position z_text">Golisano College of Computing and Information Sciences &bull; Rochester Institute of Technology</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="RIT and Interactive Games &amp; Media logos." width="600" height="300" title="RIT and Interactive Games &amp; Media logos." style="top: -150px; left: -75px"/></div><p class="description z_text"> During this time I made a few games, robustified my programming abilities, worked on many teams, wore many hats, and generally learned a multitude of useful skills.</p>
-	  
-	  <ul class="projects">
-	    <li>
-          <h4 class="date pdate"><span class="datetext">December 2009 - June 2010</span></h4> 
-          <h2 class="title z_text">Shmup You! Fighting Spirit</h2>
-          <h4 class="position z_text">Game Designer, 3D Artist, Gameplay Scripting, UI, and Menus</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="Shmup You! Fighting Spirit logo." width="600" height="300" title="Shmup You! Fighting Spirit logo." style="top: -150px; left: 0px"/></div><p class="description z_text"> On a team with two others, we created our capstone game for Xbox 360 in C#/XNA. I helped iterate on the game design making rapid prototypes and also designed a system for adapting game text to different output resolutions.</p>
-        </li>
-		<li>
-		  <h4 class="date pdate"><span class="datetext">June 2009 - October 2009</span></h4>
-		  
-		  <h2 class="title z_text">Picture the Impossible</h2>
-		  <h4 class="position z_text">Lead Webgame Developer</h4>
-		  <div class="thumbContainer"><img src="media/thumbs.png" alt="Picture the Impossible faction logos." width="600" height="300" title="Picture the Impossible faction logos." style="top: -75px; left: -525px"/></div><p class="description z_text"> <a target="_blank" href="http://www.picturetheimpossible.com">Picture the Impossible</a> was a city-based game that was played in Rochester during Fall 2009, made by RIT students, faculty, and Rochester's Democrat and Chronicle Newspaper. I was the sole Flash developer responsible for five web games, each with seven weeks of serial content.</p>
-		</li>
-		<li>
-		  <h4 class="date pdate"><span class="datetext">February 2009</span></h4>
-		  
-		  <h2 class="title z_text">Oh No! Banjo</h2>
-		  <h4 class="position z_text">Gameplay Interface Designer</h4>
-		  <div class="thumbContainer"><img src="media/thumbs.png" alt="The Oh, No! Banjo logo." width="600" height="300" title="The Oh, No! Banjo logo." style="top: -75px; left: -450px"/></div><p class="description z_text"> As a project for a seminar in Alternate Controllers we created a <a target="_blank" href="http://games.rit.edu/node/229">Banjo-based rhythm game</a>, in which there are fret <em>and</em> string buttons (instead of a single strum bar). I was responsible for the gameplay interface design, and aided with the banjo construction.</p>
-		</li>
-     </ul>
-  </li>
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">Freelance Career : August 2008 - Present</span></h4>
-	  <h1 class="title z_text">Freelance Flash Game Developer</h1>
-      <h4 class="position z_text">Workinman Interactive, LLC &bull; Nickelodeon Games</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="The Workinman Interactive logo." width="600" height="300" title="The Workinman Interactive logo." style="top: -75px; left: -375px"/></div><p class="description z_text"> I freelance for <a target="_blank" href="http://workinman.com/">Workinman Interactive</a>. On these projects I worked in ActionScript 3.0 using Workinman's existing in-house game engine. I wrote the gameplay scripting and communicated specs to in-house artists, who worked in parallel to create art assets for the final game.</p>
-	  
-	  <h1 class="title z_text">Freelance Web Developer</h1>
-      <h4 class="position z_text">Democrat and Chronicle Newspaper &bull; Rochester, NY</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="The Democrat &amp; Chronicle logo." width="600" height="300" title="The Democrat &amp; Chronicle logo." style="top: -75px; left: -300px"/></div><p class="description z_text">After Picture the Impossible, I continued working with the Democrat and Chronicle Newspaper. I helped create a series of data-driven web games that are tightly integrated with the DandC's drupal back-end framework.</p>
-	  
-	  <!--<h1 class="title z_text">RIT Print &amp; Postal HUB</h1>
-      <h4 class="position z_text">Student Manager, Graphic Designer, Print and Production Worker</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="A Map of the United Kingdom and the Republic of Ireland" width="600" height="300" title="A Map of the United Kingdom and the Republic of Ireland" style="top: 0px; left: 0px"/></div><p class="description z_text"> Along with class and study time, I worked twenty hours each week at the on-campus printing facility. This included customer service, digital print production, workflow efficiency, and finishing work.</p>-->
-	  
-	  <ul class="projects">
-	    <li>
-          <h4 class="date pdate"><span class="datetext">April 2012</span></h4> 
-          <h2 class="title z_text">SpongeBob SquarePants : Second Hand Swag</h2>
-          <h4 class="position z_text">Game Designer, Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from SpongeBob SquarePants : Second Hand Swag." width="600" height="300" title="A screenshot from SpongeBob SquarePants : Second Hand Swag." style="top: -75px; left: -225px"/></div><p class="description z_text">In <a target="_blank" href="http://spongebob.nick.com/games/spongebob-squarepants-second-hand-swag.html">Second Hand Swag</a>, Patrick catches trophies thrown out of SpongeBob's window. I enjoyed scripting a tall swaying stack of trophies that reacts to player movement&mdash;move to fast, and the upper trophies will fall off the stack!</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">January 2012</span></h4> 
-          <h2 class="title z_text">SpongeBob SquarePants : Valentine's Day Virus</h2>
-          <h4 class="position z_text">Game Designer, Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from SpongeBob SquarePants : Valentine's Day Virus." width="600" height="300" title="A screenshot from SpongeBob SquarePants : Valentine's Day Virus." style="top: -75px; left: -150px"/></div><p class="description z_text">For <a target="_blank" href="http://spongebob.nick.com/games/spongebob-squarepants-valentines-day-virus.html">Valentine's Day Virus</a> I studied an algorithm for procedural maze generation. The algorithm uses depth-first search with backtracking and visits each cell knocking down walls until all cells have been visited. The result is a "<a target="_blank" href="http://www.mazeworks.com/mazegen/mazetut/index.htm">perfect maze</a>."</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">June 2010</span></h4> 
-          <h2 class="title z_text">SpongeBob SquarePants : Hurricane Havoc</h2>
-          <h4 class="position z_text">Game Designer, Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from SpongeBob SquarePants : Hurricane Havoc." width="600" height="300" title="A screenshot from SpongeBob SquarePants : Hurricane Havoc." style="top: -75px; left: -75px"/></div><p class="description z_text">In <a target="_blank" href="http://spongebob.nick.com/games/spongebob-squarepants-hurricane-havoc.html">Hurricane Havoc</a>, players control SpongeBob who floats from island to island on a blown bubble while avoiding jellies. While randomly generating islands, I had to be sure that the gaps between them were challenging <em>and</em> actually possible.</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">February 2010</span></h4> 
-          <h2 class="title z_text">Invader Zim : Good Gir Gone Bad <a target="_blank" href="/projects/good_gir_gone_bad/">view details &gt;</a></h2>
-          <h4 class="position z_text">Game Designer, Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from Invader Zim : Good Gir Gone Bad." width="600" height="300" title="A screenshot from Invader Zim : Good Gir Gone Bad." style="top: -75px; left: 0px"/></div><p class="description z_text"><a target="_blank" href="http://nicktoons.nick.com/games/invader-zim-good-gir-gone-bad.html">Good Gir Gone Bad</a> takes place on a circular level that seamlessly wraps back upon itself. I had a lot of fun using polar coordinates and creating a dynamic camera system that makes sure both Gir and Dib are visible at all times.</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">October 2009</span></h4> 
-          <h2 class="title z_text">SpongeBob SquarePants : FrankenPatrick</h2>
-          <h4 class="position z_text">Game Designer, Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from SpongeBob SquarePants : FrankenPatrick." width="600" height="300" title="A screenshot from SpongeBob SquarePants : FrankenPatrick." style="top: 0px; left: -525px"/></div><p class="description z_text"><a target="_blank" href="http://spongebob.nick.com/games/spongebob-squarepants-frankenpatrick.html">FrankenPatrick</a> is a simplified spin-off of the Gears game I created for Picture the Impossible. Players drag and drop colored gears to create a gear chain that raises the inanimate FrankenPatrick up and up and up. Upon reaching the top of the tower, lightning strikes, which brings the monster to life.</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">August 2008</span></h4> 
-          <h2 class="title z_text">iCarly : Hacker Attacker</h2>
-          <h4 class="position z_text">Flash Developer &bull; Workinman Interactive</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A screenshot from iCarly Hacker Attacker." width="600" height="300" title="A screenshot from iCarly Hacker Attacker." style="top: 0px; left: -450px"/></div><p class="description z_text"><a target="_blank" href="http://www.nick.com/games/icarly-hacker-attacker.html">Hacker Attacker</a> was my first-ever shipped title. Players draw "firewalls" to block incoming viruses from hitting iCarly's video data stream. As more viruses get through, the video bandwidth is decreased. The game is over when the feed becomes static.</p>
-        </li>
-     </ul>
-  </li>
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">Undergraduate Student : September 2004 - August 2008</span></h4>
-	  <h1 class="title z_text">BFA in New Media Design &amp; Imaging</h1>
-      <h4 class="position z_text">College of Imaging Arts &amp; Sciences &bull; Rochester Institute of Technology</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="The RIT logo, with CIAS College of Imaging Arts and Sciences." width="600" height="300" title="RIT College of Imaging Arts and Sciences" style="top: 0px; left: -375px"/></div><p class="description z_text"> During this time I studied New Media Design&mdash;the coupling of visual design aesthetics and technology of the digital age. My senior-year design portfolio is still available at <a target="_blank" href="http://jp-design.net">jp-design.net</a>, though a small handful of the links have not aged well. The resum&eacute; there, while accurate, is also out-of-date.</p>
-	  
-	  <h1 class="title z_text">RIT Print &amp; Postal HUB</h1>
-      <h4 class="position z_text">Student Manager, Graphic Designer, Print and Production Worker</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="A portion of the RIT Print &amp; Postal HUB logo." width="600" height="300" title="RIT Print &amp; Postal HUB" style="top: 0px; left: -300px"/></div><p class="description z_text"> Along with class and study time, I worked 20 hours each week at the on-campus printing facility. This included customer service, digital print production, workflow efficiency, and finishing work.</p>
-	  
-	  <ul class="projects">
-	    <!--<li>
-          <h4 class="date pdate"><span class="datetext">Date Range</h4> 
-          <h2 class="title z_text">Project Name</h2>
-          <h4 class="position z_text">Project Role</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A Map of the United Kingdom and the Republic of Ireland" width="600" height="300" title="A Map of the United Kingdom and the Republic of Ireland" style="top: 0px; left: 0px"/></div><p class="description z_text"> D</p>
-        </li>-->
-     </ul>
-  </li>
-  <li>
-    <div class="dot z_text"></div>
-    <h4 class="date z_text"><span class="datetext">High School Student : September 2000 - September 2004</span></h4>
-	  <h1 class="title z_text">WKTV Television, Utica</h1>
-      <h4 class="position z_text">Production Artist, Studio Camera, Broadcast Audio</h4>
-      <div class="thumbContainer"><img src="media/thumbs.png" alt="WKTV Television Logo" width="600" height="300" title="WKTV Television Logo" style="top: 0px; left: -225px"/></div><p class="description z_text">My part-time job during high school was at the local NBC affiliate television station. I was the production artist and studio camera or broadcast audio operator for evening and weekend news broadcasts.</p>
-	  
-	  <ul class="projects">
-	    <li>
-          <h4 class="date pdate"><span class="datetext">July 2004</span></h4> 
-          <h2 class="title z_text">Travel to France, Italy, Switzerland, Austria, Vatican City</h2>
-          <h4 class="position z_text">People to People Student Ambassador Program</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A Map of Central Europe" width="600" height="300" title="A Map of Central Europe" style="top: 0px; left: -150px"/></div><p class="description z_text">This trip was an excellent primer for the Art History courses I would later take in college. I had the opportunity to see many of the works discussed with my own eyes. You may see what my camera saw at <a target="_blank" href="http://p2p2004.jp-design.net/">p2p2004.jp-design.net</a>.</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">July 2003</span></h4> 
-          <h2 class="title z_text">Travel to Australia, New Zealand</h2>
-          <h4 class="position z_text">People to People Student Ambassador Program</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A Map of Australia and New Zealand" width="600" height="300" title="A Map of Australia and New Zealand" style="top: 0px; left: -75px"/></div><p class="description z_text">In preparation for this trip, I earned an open-water SCUBA certification. Photos for this trip are online at <a target="_blank" href="http://p2p2003.jp-design.net/">p2p2003.jp-design.net</a>. "No worries," a common aussie phrase, has become part of my vernacular.</p>
-        </li>
-	    <li>
-          <h4 class="date pdate"><span class="datetext">July 2000</span></h4> 
-          <h2 class="title z_text">Travel to England, Ireland, Wales and Scotland</h2>
-          <h4 class="position z_text">People to People Student Ambassador Program</h4>
-          <div class="thumbContainer"><img src="media/thumbs.png" alt="A Map of the United Kingdom and the Republic of Ireland" width="600" height="300" title="A Map of the United Kingdom and the Republic of Ireland" style="top: 0px; left: 0px"/></div><p class="description z_text">Preparing for this trip taught me the value of hard work, as I earned most of the funds through lawn and yard work, odd jobs, and bottle and can deposit returns. I built my first-ever website, <a target="_blank" href="http://p2p2000.jp-design.net/">p2p2000.jp-design.net</a>, to show photos from the trip.</p>
-        </li>
-     </ul>
-  </li>
-</ul>
-
-<script>
-		<!--
-		
-		var links = {"p":"on GMail - percipient24@gmail.com",
-					 "e":"on tumblr - percipient24.tumblr.com",
-					 "r":"on twitter - @percipient24",
-					 "c":"on Linked in - percipient24",
-					 "i":"on reddit - percipient24",
-					 "p2":"on facebook - percipient24",
-					 "i2":"a designer - jp-design.net",
-					 "e2":"on Google+ - percipient24",
-					 "n":"on vimeo - percipient24",
-					 "t":"on Xbox Live - percipient24",
-					 "two":"on Stack Overflow - percipient24",
-					 "four":"on GitHub - percipient24"}
-					 
-		var dotData = [];
-		
-		var portraitCounter = 0;
-		var portraitReset = Math.random()*50+70;
-		
-		$(document).ready(function(){
-			$(".letter").bind('mouseleave blur', function(){
-				$("#show").text("Joe Pietruch is ...");
-				//var original = $(this).css("background");
-				//original = original.replace("px 0px", "px -104px");
-				//$(this).css("background", "");
-			});
-			$(".letter").bind('mouseenter focus', function(){
-				$("#show").text("Joe Pietruch is "+links[this.id]);
-				//var original = $(this).css("background");
-				//original = original.replace("px -104px", "px 0px");
-				//$(this).css("background", original);
-			});
-			
-			$(document).bind('touchmove mousemove', movementDetected);
-			$(window).bind('scroll', movementDetected);
-			movementDetected();
-		});
-		
-		function movementDetected(evt)
-		{
-			portraitCounter++;
-			
-			if(portraitCounter > portraitReset)
-			{
-				portraitReset = Math.random()*30+60;
-				portraitCounter = 0;
-				
-				$("#me").css("background", "url('/media/portraits.png') -"+Math.floor(Math.random()*8)*300+"px 0");
-			}
-		}
-
-		//-->
-
-	</script>
+  <script type="text/javascript" src="scripts/angular.min.js"></script>
+  <script type="text/javascript" src="scripts/myApp.js"></script>
 
 </body>
 </html>
-
-
