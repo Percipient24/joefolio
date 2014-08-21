@@ -334,6 +334,17 @@ h2.title a:active {}
 	position: relative;
 }
 
+#key p {
+	background-color: black;
+	color: white;
+	float: left;
+	padding: 2px;
+}
+
+#key a {
+	color: #FFFF77;
+}
+
 @media (max-width: 1000px)
 {
 	.title {
